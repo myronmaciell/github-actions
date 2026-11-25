@@ -22,4 +22,4 @@ jobs:
 
       - name: Escrever RA e SHA no resumo do job
         run: |
-          echo "RA: SEU_RA | SHA: ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
+          echo "RA: 2026108550 | SHA: ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
